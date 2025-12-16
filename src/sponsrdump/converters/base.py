@@ -20,7 +20,7 @@ class TextConverter:
     def dump(self, value: str, *, dest: Path) -> Path:
         target = dest.with_suffix(f'.{self.alias}')
 
-        with target.open('w') as f:
+        with target.open('w', encoding='utf-8') as f:
             f.write(self._convert(value))
 
         return target

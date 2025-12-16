@@ -1,3 +1,8 @@
 sponsrdump_auth.txt
 sponsrdump.json
 dump/
+
+marahovsky/
+sponsrdump.json.backup
+__pycache__/
+
